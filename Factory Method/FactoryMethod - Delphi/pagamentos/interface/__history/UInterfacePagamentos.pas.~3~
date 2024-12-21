@@ -1,0 +1,12 @@
+unit UInterfacePagamentos;
+
+interface
+
+type
+  IPagamentos = interface
+    procedure ProcessaPagamento;
+  end;
+
+implementation
+
+end.

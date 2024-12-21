@@ -1,0 +1,13 @@
+unit uIPagamento;
+
+interface
+
+type
+  IPagamento = interface
+  public
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+implementation
+
+end.

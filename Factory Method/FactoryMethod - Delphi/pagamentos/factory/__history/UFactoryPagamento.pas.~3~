@@ -1,0 +1,28 @@
+unit UFactoryPagamento;
+
+interface
+
+uses
+  uIPagamento;
+
+type
+  FactoryPagamento = class
+    function CriaTipoPagamento: IPagamento; virtual; abstract;
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+implementation
+
+{ FactoryPagamento }
+
+function FactoryPagamento.CriaTipoPagamento(ATipo: string): IPagamento;
+begin
+
+end;
+
+procedure FactoryPagamento.RealizaPagamento(AValor: Double);
+begin
+
+end;
+
+end.

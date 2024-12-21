@@ -1,0 +1,23 @@
+unit UCartaoDeCredito;
+
+interface
+
+uses
+  uIPagamento, Dialogs;
+
+  type
+  CartaoDeCredito = class(TInterfacedObject, IPagamento)
+  public
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+implementation
+
+{ CartaoDeCredito }
+
+procedure CartaoDeCredito.RealizaPagamento(AValor: Double);
+begin
+  ShowMessage('Pagamento realizado utilizado cartão de crédito.');
+end;
+
+end.

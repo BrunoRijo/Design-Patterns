@@ -1,0 +1,22 @@
+unit UBoletoBancario;
+
+interface
+
+uses
+  uIPagamento, Dialogs;
+
+type
+  TBoletoBancario = class(TInterfacedObject, IPagamento)
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+implementation
+
+{ BoletoBancario }
+
+procedure BoletoBancario.RealizaPagamento(AValor: Double);
+begin
+  ShowMessage('Pagamento realizado utilizado Boleto Bancário.');
+end;
+
+end.

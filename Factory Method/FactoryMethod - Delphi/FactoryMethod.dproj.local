@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/26 08:09:53.000.343,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.dfm</Transaction>
+    <Transaction>2024/08/26 08:26:33.000.342,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/09/25 08:51:18.000.236,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:15:16.000.020,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/17 20:20:53.000.216,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\uPrincipal.pas</Transaction>
+    <Transaction>2024/12/17 20:20:53.000.216,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\uPrincipal.dfm</Transaction>
+    <Transaction>2024/12/17 20:21:11.000.421,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\FactoryMethod.dproj</Transaction>
+    <Transaction>2024/12/17 20:30:01.000.316,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 20:33:48.000.612,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 20:35:15.000.057,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 20:35:33.000.166,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\Unit1.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\UInterfacePagamentos.pas</Transaction>
+    <Transaction>2024/12/17 20:42:36.000.556,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 20:45:00.000.437,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\UInterfacePagamentos.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\IPagamento.pas</Transaction>
+    <Transaction>2024/12/17 20:47:24.000.755,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\implementation\UCartaoDeCredito.pas</Transaction>
+    <Transaction>2024/12/17 20:54:18.000.626,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\IPagamento.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\interface\uIPagamento.pas</Transaction>
+    <Transaction>2024/12/17 20:54:47.000.100,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 20:55:33.000.453,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\implementation\UDinheiroEspecie.pas</Transaction>
+    <Transaction>2024/12/17 20:56:59.000.823,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 20:57:19.000.192,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\implementation\UBoletoBancario.pas</Transaction>
+    <Transaction>2024/12/17 21:00:20.000.313,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2024/12/17 21:00:54.000.246,C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\Unit1.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\FactoryMethod\pagamentos\factory\UFactoryPagamento.pas</Transaction>
+  </Transactions>
+</BorlandProject>

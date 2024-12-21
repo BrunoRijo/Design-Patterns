@@ -1,0 +1,16 @@
+unit UInterfacePagamentos;
+
+interface
+
+type
+  IPagamento = interface
+    procedure RealizaPagamento;
+  end;
+
+  IFactoryMethod = interface
+    function ProcessaPagamento(Tipo: string): IPagamento;
+  end;
+
+implementation
+
+end.

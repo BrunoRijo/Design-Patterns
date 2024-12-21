@@ -1,0 +1,16 @@
+unit UFactoryPagamento;
+
+interface
+
+uses
+  uIPagamento;
+
+type
+  FactoryPagamento = class
+    function CriaTipoPagamento(ATipo: string): IPagamento;
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+implementation
+
+end.

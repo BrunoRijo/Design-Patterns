@@ -1,0 +1,30 @@
+unit UFactoryPagamento;
+
+interface
+
+uses
+  uIPagamento;
+
+type
+  TFactoryPagamento = class
+    function CriaTipoPagamento: IPagamento; virtual; abstract;
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+  TPagamentoCartaoDeCredito = class(TFactoryPagamento)
+    function CriaTipoPagamento: IPagamento; override;
+  end;
+
+  TPagamentoBoletoBancario = class(TFactoryPagamento)
+    function CriaTipoPagamento: IPagamento; override;
+  end;
+
+  TPagamentoDinheiroEmEspecie = class(TFactoryPagamento)
+    function CriaTipoPagamento: IPagamento; override;
+  end;
+  
+implementation
+
+{ FactoryPagamento }
+
+end.

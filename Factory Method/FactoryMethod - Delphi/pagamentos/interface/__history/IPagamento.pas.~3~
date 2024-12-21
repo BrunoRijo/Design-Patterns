@@ -1,0 +1,12 @@
+unit IPagamento;
+
+interface
+
+type
+  IPagamento = interface
+    procedure RealizaPagamento(Valor: Double);
+  end;
+
+implementation
+
+end.

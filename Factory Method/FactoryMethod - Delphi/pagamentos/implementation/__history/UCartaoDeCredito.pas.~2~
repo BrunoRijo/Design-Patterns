@@ -1,0 +1,15 @@
+unit UCartaoDeCredito;
+
+interface
+
+uses
+  UIPagamento;
+
+  type
+  CartaoDeCredito = class(TInterfacedObject, IPagamento)
+
+  end;
+
+implementation
+
+end.

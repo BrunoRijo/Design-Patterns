@@ -1,0 +1,22 @@
+unit UDinheiroEspecie;
+
+interface
+
+uses
+  uIPagamento, Dialogs;
+
+type
+  TDinheiroEmEspecia = class(TInterfacedObject, IPagamento)
+    procedure RealizaPagamento(AValor: Double);
+  end;
+
+implementation
+
+{ DinheiroEmEspecia }
+
+procedure TDinheiroEmEspecia.RealizaPagamento(AValor: Double);
+begin
+  ShowMessage('Pagamento realizado utilizado Dinheiro em espécie.');
+end;
+
+end.
