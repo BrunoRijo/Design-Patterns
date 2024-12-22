@@ -1,0 +1,7 @@
+unit USingletonLogger;
+
+interface
+
+implementation
+
+end.
