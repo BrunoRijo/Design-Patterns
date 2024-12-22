@@ -1,0 +1,49 @@
+unit UCarroBuilder;
+
+interface
+
+uses
+  UICarroBuilder, UCarro;
+
+type
+  TCarroBuilder = class(TInterfacedObject, ICarroBuilder)
+    private
+      FCarro: TCarro;
+    public
+      constructor Create; override;
+      function SetModelo(const AModelo: string): ICarroBuilder;
+      function SetAno(const AAno: string): ICarroBuilder;
+      function SetCor(const ACor: string): ICarroBuilder;
+      function Build: TCarro;
+  end;
+
+implementation
+
+{ TCarroBuilder }
+
+function TCarroBuilder.Build: TCarro;
+begin
+end;
+
+constructor TCarroBuilder.Create;
+begin
+  inherited;
+  FCarro:= TCarro.Create;
+end;
+
+function TCarroBuilder.SetAno(const AAno: string): ICarroBuilder;
+begin
+
+end;
+
+function TCarroBuilder.SetCor(const ACor: string): ICarroBuilder;
+begin
+
+end;
+
+function TCarroBuilder.SetModelo(const AModelo: string): ICarroBuilder;
+begin
+
+end;
+
+end.

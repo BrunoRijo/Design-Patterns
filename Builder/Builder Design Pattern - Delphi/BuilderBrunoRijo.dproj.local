@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/26 08:09:53.000.343,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.dfm</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.pas</Transaction>
+    <Transaction>2024/08/26 08:26:33.000.342,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/09/25 08:51:18.000.236,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/22 16:36:16.000.486,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/22 16:37:07.959,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/22 16:37:40.205,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/22 16:38:36.920,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\UCarro.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/22 16:43:34.084,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/22 16:44:45.100,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\BuilderCar\interface\ICarroBuilder.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/22 16:45:52.542,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\BuilderCar\interface\UICarroBuilder.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\BuilderCar\interface\ICarroBuilder.pas</Transaction>
+    <Transaction>2024/12/22 16:48:47.800,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\UCarro.pas=</Transaction>
+    <Transaction>2024/12/22 16:49:35.145,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\BuilderCar\UCarro.pas</Transaction>
+    <Transaction>2024/12/22 16:50:45.035,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/22 16:51:06.581,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\BuilderCar\implementation\UCarroBuilder.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/22 16:57:28.857,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\UPrincipal.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/12/22 16:57:28.857,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\UPrincipal.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/22 16:57:46.590,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Builder\Builder Design Pattern - Delphi\BuilderBrunoRijo.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
