@@ -1,0 +1,15 @@
+unit UCurriculo;
+
+interface
+
+uses
+  UIDocument;
+
+type
+  Curriculo = class(TInterfacedObject, IDocument)
+    function Clone: Curriculo;
+  end;
+
+implementation
+
+end.

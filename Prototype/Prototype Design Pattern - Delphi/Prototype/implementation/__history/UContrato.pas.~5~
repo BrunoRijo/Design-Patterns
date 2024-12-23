@@ -1,0 +1,39 @@
+unit UContrato;
+
+interface
+
+uses
+  UIDocument;
+
+type
+  Contrato = class(TInterfacedObject, IDocument)
+    private
+      FClientName: string;
+      FContractValue: Double;
+    public
+      constructor Create(AClientName: string; AContractValue: Double);
+      function Clone: Contrato;
+      function ShowDocumentDetails: string;
+  end;
+
+implementation
+
+{ Contrato }
+
+constructor Contrato.Create();
+begin
+  inherited Create;
+end;
+
+function Contrato.Clone: Contrato;
+begin
+  Result := Contrato.Create;
+end;
+
+function Contrato.ShowDocumentDetails: string;
+begin
+  Result '';
+end;
+
+
+end.

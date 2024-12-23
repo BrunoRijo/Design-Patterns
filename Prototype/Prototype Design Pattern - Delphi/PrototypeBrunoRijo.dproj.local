@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/26 08:09:53.000.343,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.dfm</Transaction>
+    <Transaction>2024/08/26 08:26:33.000.342,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/09/25 08:51:18.000.236,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/22 16:36:16.000.486,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/23 13:24:52.268,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/23 13:27:16.423,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\UPrincipal.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/12/23 13:27:16.423,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\UPrincipal.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/23 13:27:30.340,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\PrototypeBrunoRijo.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/12/23 13:28:02.788,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/12/23 13:28:33.037,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Prototype\interface\UIDocument.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/12/23 13:29:38.476,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/12/23 13:30:14.008,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Prototype\implementation\UContrato.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/12/23 13:30:20.223,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Unit1.pas</Transaction>
+    <Transaction>2024/12/23 13:30:39.284,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Prototype\implementation\UCurriculo.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Prototype\Prototype Design Pattern - Delphi\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

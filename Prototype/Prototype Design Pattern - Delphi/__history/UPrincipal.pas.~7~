@@ -1,0 +1,45 @@
+unit UPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    rg1: TRadioGroup;
+    rb1: TRadioButton;
+    rb2: TRadioButton;
+    btn1: TButton;
+    procedure btn1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Principal: TForm2;
+
+implementation
+
+uses
+  UIDocument, UContrato, UCurriculo;
+
+{$R *.dfm}
+
+procedure TForm2.btn1Click(Sender: TObject);
+var
+  OriginalContract, ClonedContract: IDocument;
+  OriginalResume, ClonedResume: IDocument;
+begin
+  //Criando os objetos originais
+  OriginalResume   := UCurriculo.Create('Bruno Rijo', 5.0);
+  OriginalContract := UContrato.Create('Bruno Rijo', 99999999990.0);
+
+  if True then
+
+end;
+
+end.

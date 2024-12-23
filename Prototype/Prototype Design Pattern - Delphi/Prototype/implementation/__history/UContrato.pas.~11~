@@ -1,0 +1,42 @@
+unit UContrato;
+
+interface
+
+uses
+  UIDocument;
+
+type
+  Contrato = class(TInterfacedObject, IDocument)
+    private
+      FClientName: string;
+      FContractValue: Double;
+    public
+      constructor Create(AClientName: string; AContractValue: Double);
+      function Clone: IDocument;
+      function ShowDocumentDetails: string;
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ Contrato }
+
+constructor Contrato.Create(AClientName: string; AContractValue: Double);
+begin
+  FClientName := AClientName;
+  FContractValue := AContractValue;
+end;
+
+function Contrato.Clone: IDocument;
+begin
+  Result := Contrato.Create(FClientName, FContractValue);
+end;
+
+function Contrato.ShowDocumentDetails: string;
+begin
+  Result := Format('Contrato - Cliente:%s, valor R$: %f',[FClientName, FContractValue]);
+end;
+
+end.

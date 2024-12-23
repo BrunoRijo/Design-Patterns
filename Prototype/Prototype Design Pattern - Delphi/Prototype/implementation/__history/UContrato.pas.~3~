@@ -1,0 +1,15 @@
+unit UContrato;
+
+interface
+
+uses
+  UIDocument;
+
+type
+  Contrato = class(TInterfacedObject, IDocument)
+    function Clone: Contrato;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,12 @@
+unit UIDocument;
+
+interface
+
+type
+  IDocument = interface
+    function Clone: IDocument;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,42 @@
+unit UCurriculo;
+
+interface
+
+uses
+  UIDocument;
+
+type
+  Curriculo = class(TInterfacedObject, IDocument)
+    private
+      FName: string;
+      FExperienceYears: Double;
+    public
+      constructor Create(AName: string; AExperienceYears: Double);
+      function Clone: IDocument;
+      function ShowDocumentDetails: string;
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ Curriculo }
+
+function Curriculo.Clone: IDocument;
+begin
+  Result := Curriculo.Create(FName, FExperienceYears);
+end;
+
+constructor Curriculo.Create(AName: string; AExperienceYears: Double);
+begin
+  FName := AName;
+  FExperienceYears := AExperienceYears;
+end;
+
+function Curriculo.ShowDocumentDetails: string;
+begin
+  Result := Format('Curriculo - Nome: %s, %f anos de experiencia',[FName, FExperienceYears]);
+end;
+
+end.

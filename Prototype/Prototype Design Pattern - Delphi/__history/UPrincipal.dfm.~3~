@@ -1,0 +1,49 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Prototype Design Pattern'
+  ClientHeight = 126
+  ClientWidth = 265
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object rg1: TRadioGroup
+    Left = 8
+    Top = 8
+    Width = 129
+    Height = 105
+    Caption = 'Tipo de Documento'
+    TabOrder = 0
+  end
+  object rb1: TRadioButton
+    Left = 24
+    Top = 40
+    Width = 113
+    Height = 17
+    Caption = 'Curriculo'
+    TabOrder = 1
+  end
+  object rb2: TRadioButton
+    Left = 24
+    Top = 72
+    Width = 113
+    Height = 17
+    Caption = 'Contrato'
+    TabOrder = 2
+  end
+  object btn1: TButton
+    Left = 143
+    Top = 88
+    Width = 113
+    Height = 25
+    Caption = 'Criar Documento'
+    TabOrder = 3
+    OnClick = btn1Click
+  end
+end
