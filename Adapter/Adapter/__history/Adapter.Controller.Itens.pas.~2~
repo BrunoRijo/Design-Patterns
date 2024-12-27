@@ -1,0 +1,16 @@
+unit Adapter.Controller.Itens;
+
+interface
+
+uses
+  Adapter.Model.Interfaces, System.Generics.Collections;
+
+type
+  TControllerItens = class(TInterfacedObject, IControllerItens)
+    function Add(Value: TItem): IControllerItens;
+    function Itens: TList<TItem>;
+  end;
+
+implementation
+
+end.

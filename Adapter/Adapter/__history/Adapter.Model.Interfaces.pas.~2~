@@ -1,0 +1,30 @@
+unit Adapter.Model.Interfaces;
+
+interface
+
+uses
+  System.Generics.Collections;
+
+{}
+
+type
+  TItem = record
+    Nome: string;
+    Valor: Currency;
+  end;
+
+  IControllerItens = interface
+    ['{682174C9-CF15-48C0-96E0-CFCC6EF888EA}']
+    function Add(Value: TItem): IControllerItens;
+    function Itens: TList<TItem>;
+  end;
+
+  IModelItens = interface
+    function Add(Value: TItem): IModelItens;
+    function Itens: TList<TItem>;
+    function SetProduto(Value: String): IModelItens;
+  end;
+
+implementation
+
+end.

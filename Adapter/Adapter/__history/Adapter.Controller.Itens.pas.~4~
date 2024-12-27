@@ -1,0 +1,31 @@
+unit Adapter.Controller.Itens;
+
+interface
+
+{A Classe controller, fará o papel de adapter, fazendo com que os dados recebidos como
+record sejam adaptados, ou traduzidos para o formado iModelItens}
+
+uses
+  Adapter.Model.Interfaces, System.Generics.Collections;
+
+type
+  TControllerItens = class(TInterfacedObject, IControllerItens)
+    function Add(Value: TItem): IControllerItens;
+    function Itens: TList<TItem>;
+  end;
+
+implementation
+
+{ TControllerItens }
+
+function TControllerItens.Add(Value: TItem): IControllerItens;
+begin
+
+end;
+
+function TControllerItens.Itens: TList<TItem>;
+begin
+
+end;
+
+end.

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/08/26 08:09:53.000.343,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.pas=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/08/26 08:26:15.000.145,C:\Users\joao.rijo\Documents\RAD Studio\Projects\ComparaScripts.dfm=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/08/26 08:26:33.000.342,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/09/25 08:51:18.000.236,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/22 16:36:16.000.486,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/26 17:05:40.000.743,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/12/26 17:52:52.000.482,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/26 17:53:48.000.329,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\interface\UIWebServiceViaCEP.pas</Transaction>
+    <Transaction>2024/12/26 18:03:04.000.632,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/26 18:07:24.000.183,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\UWebServiceViaCEP.pas</Transaction>
+    <Transaction>2024/12/26 18:16:00.000.051,=C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2024/12/26 18:16:51.000.534,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit3.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\target\UComunicador.pas</Transaction>
+    <Transaction>2024/12/26 18:33:20.000.950,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\UClient.dfm</Transaction>
+    <Transaction>2024/12/26 18:33:20.000.950,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\UClient.pas</Transaction>
+    <Transaction>2024/12/26 18:33:32.000.592,C:\Users\joao.rijo\Documents\RAD Studio\Projects\Project2.dproj=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\AdapterBrunoRijo.dproj</Transaction>
+    <Transaction>2024/12/26 22:08:41.000.698,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\interface\UIWebServiceViaCEP.pas=</Transaction>
+    <Transaction>2024/12/26 22:08:46.000.057,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\target\UComunicador.pas=</Transaction>
+    <Transaction>2024/12/26 22:09:04.000.801,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\UWebServiceViaCEP.pas=</Transaction>
+    <Transaction>2024/12/26 22:11:35.000.376,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas</Transaction>
+    <Transaction>2024/12/26 22:11:47.000.477,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas</Transaction>
+    <Transaction>2024/12/26 22:12:22.000.660,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\Adapter.Model.Interfaces.pas</Transaction>
+    <Transaction>2024/12/26 22:24:09.000.063,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas</Transaction>
+    <Transaction>2024/12/26 22:24:32.000.196,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\Adapter.Model.Itens.pas</Transaction>
+    <Transaction>2024/12/26 22:26:27.000.261,=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas</Transaction>
+    <Transaction>2024/12/26 22:26:42.000.644,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Unit1.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter\Adapter.Controller.Itens.pas</Transaction>
+    <Transaction>2024/12/26 23:10:54.980,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter.View.Prnicipal.dfm=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\UClient.dfm</Transaction>
+    <Transaction>2024/12/26 23:10:54.980,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter.View.Prnicipal.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\UClient.pas</Transaction>
+    <Transaction>2024/12/26 23:11:12.341,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter.View.Principal.dfm=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter.View.Prnicipal.dfm</Transaction>
+    <Transaction>2024/12/26 23:11:12.341,C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter.View.Principal.pas=C:\Users\joao.rijo\Documents\GitHub\Design-Patterns\Adapter\Adapter.View.Prnicipal.pas</Transaction>
+  </Transactions>
+</BorlandProject>

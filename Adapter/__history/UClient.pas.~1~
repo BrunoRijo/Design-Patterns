@@ -1,0 +1,77 @@
+unit UClient;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    edtLogradouro: TEdit;
+    lbl1: TLabel;
+    lbl2: TLabel;
+    edtBairro: TEdit;
+    lbl3: TLabel;
+    edtCidade: TEdit;
+    btnConsultarCEP: TButton;
+    edtCEP: TEdit;
+    procedure btnConsultarCEPClick(Sender: TObject);
+  private
+    { Private declarations }
+    function DadosInvalidos: Boolean;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+uses
+  UWebServiceViaCEP, UComunicador;
+
+{$R *.dfm}
+
+procedure TForm2.btnConsultarCEPClick(Sender: TObject);
+var
+  WebServiceViaCEP: TWebServiceViaCEP;
+  Comunicador: TComunicador;
+  Retorno: TStringList;
+begin
+
+  if DadosInvalidos then
+  begin
+    ShowMessage('Dados inválidos.');
+    Exit;
+  end;
+
+  // instancia o objeto da classe de consulta
+  WebServiceViaCEP := TWebServiceViaCEP.Create;
+
+  // instancia o comunicador (Target), injetando o objeto de consulta
+  Comunicador := TComunicador.Create(WebServiceViaCEP);
+
+  Retorno := TStringList.Create;
+  try
+    // o Target consulta o endereço (utilizando o objeto injetado) e retorna os dados
+    Retorno := Comunicador.ConsultarEndereco(EdtCEP.Text);
+
+    EdtLogradouro.Text := Retorno.Values['Logradouro'];
+    EdtBairro.Text := Retorno.Values['Bairro'];
+    EdtCidade.Text := Retorno.Values['Cidade'];
+  finally
+    FreeAndNil(Retorno);
+    FreeAndNil(Comunicador);
+  end;
+end;
+
+function TForm2.DadosInvalidos: Boolean;
+begin
+  Result := (edtLogradouro.Text = '') or
+            (edtBairro.Text = '') or
+            (edtCidade.Text = '');
+end;
+
+end.
